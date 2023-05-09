@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.3;
+}
+
+.dark {
+  background-color: white;
+  color: black;
+}
+
+.header {
+  border: 2px solid white;
+  border-radius: 8px;
+  text-align: left;
+  margin: 15px 0px;
+  padding: 10px;
+  color: white;
+  background: #272020;
+}
+
+.header__h1 {
+  margin: 20px;
+  display: inline-block;
+}
+
+.header__button {
+  border: none;
+  background: none;
+  margin-left: 40px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  border: 2px solid white;
+  border-radius: 8px;
+  text-align: center;
+  margin: 15px 0px;
+  color: white;
+  background: #272020;
+}
+
+.nav__li {
+  display: inline-block;
+  list-style: none;
+  color: white;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.nav__a {
+  color: white;
+  text-decoration: none;
+}
+
+.sectionMovies__table {
+  font-family: "Manrope", sans-serif;
+  margin: 20px;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.sectionMovies__tableCell {
+  background: white;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.sectionMovies__tableHeader {
+  font-weight: 700;
+  color: white;
+  background: #094663;
+}
+
+.sectionMovies__caption {
+  caption-side: top;
+  font-style: italic;
+  text-align: left;
+  font-weight: 700;
+}
+
+.sectionMovies__a {
+  font-family: Helvetica, sans-serif;
+}
+
+.sectionMovies__a:link,
+.sectionMovies__a:visited {
+  color: #094663;
+}
+
+.footer {
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 15px 0px;
+  padding: 10px;
+  color: white;
+  background: #272020;
+}
+
+.sectionMovies__tableContainer--overflow {
+  overflow-x: auto;
+}
+
+.body--dark {
+  background: #272020;
+  color: white;
+}
+
+.themeSwitch--opacityDark {
+  opacity: 0.3;
+}
+
+.main__separator--lightTheme {
+  background: black;
+}
+
+.main__separator--darkTheme {
+  background: white;
+}
+
+.main__separator {
+  border-radius: 50%;
+  height: 3px;
+}

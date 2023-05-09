@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css.css" />
+    <script defer src="js.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moje pasje</title>
+  </head>
+  <body id="body">
+    <header class="header">
+      <h1 class="header__h1">Moje pasje</h1>
+      <button id="themeSwitch" class="header__button">
+        <img src="https://i.postimg.cc/JhBLnkwZ/moonicon.png" alt="" />
+      </button>
+    </header>
+
+    <nav class="nav" id="navigation">
+      <ul>
+        <li class="nav__li"><a class="nav__a" href="#movies">Filmy</a></li>
+        <li class="nav__li"><a class="nav__a" href="#games">Gry</a></li>
+        <li class="nav__li">
+          <a class="nav__a" href="#activities">Zajęcia</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="movies">
+        <div class="sectionMovies__tableContainer--overflow">
+          <table class="sectionMovies__table">
+            <caption class="sectionMovies__caption">
+              Moje ulubione filmy
+            </caption>
+
+            <tr>
+              <th class="sectionMovies__tableCell sectionMovies__tableHeader"
+                scope="col">
+                Tytuł
+              </th>
+              <th class="sectionMovies__tableCell sectionMovies__tableHeader"
+                scope="col">
+                Reżyser
+              </th>
+              <th class="sectionMovies__tableCell sectionMovies__tableHeader"
+                scope="col">
+                Gatunek
+              </th>
+            </tr>
+
+            <tr>
+              <th class="sectionMovies__tableCell sectionMovies__tableHeader"
+                scope="row">
+                Wyspa tajemnic
+              </th>
+              <td class="sectionMovies__tableCell">Martin Scorsese</td>
+              <td class="sectionMovies__tableCell" rowspan="2">Thriller</td>
+            </tr>
+
+            <tr>
+              <th class="sectionMovies__tableCell sectionMovies__tableHeader"
+                scope="row">
+                Nagi Instynkt
+              </th>
+              <td class="sectionMovies__tableCell">Paul Verhoeven</td>
+            </tr>
+
+            <tr>
+              <th class="sectionMovies__tableCell sectionMovies__tableHeader"
+                scope="row">
+                Skazani na Shawshank
+              </th>
+              <td class="sectionMovies__tableCell">Frank Darabont</td>
+              <td class="sectionMovies__tableCell" rowspan="2">
+                Kryminał/Dramat
+              </td>
+            </tr>
+
+            <tr>
+              <th class="sectionMovies__tableCell sectionMovies__tableHeader"
+                scope="row">
+                Pulp Fiction
+              </th>
+              <td class="sectionMovies__tableCell">Quentin Tarantino</td>
+            </tr>
+          </table>
+        </div>
+        Przeczytaj więcej w nowej karcie:
+        <ul>
+          <li>
+            <a class="sectionMovies__a"
+              href="https://pl.wikipedia.org/wiki/Wyspa_tajemnic_(film)"
+              target="_blank">Wyspa tajemnic</a>
+          </li>
+          <li>
+            <a class="sectionMovies__a"
+              href="https://pl.wikipedia.org/wiki/Nagi_instynkt"
+              target="_blank">Nagi Instynkt</a>
+          </li>
+          <li>
+            <a class="sectionMovies__a"
+              href="https://pl.wikipedia.org/wiki/Skazani_na_Shawshank_(film)"
+              target="_blank">Skazani na Shawshank</a>
+          </li>
+          <li>
+            <a class="sectionMovies__a"
+              href="https://pl.wikipedia.org/wiki/Pulp_Fiction"
+              target="_blank">Pulp Fiction</a>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="main__separator main__separator--lightTheme"></hr>
+
+      <section id="games">
+        <header><h2>Ranking ulubionych gier</h2></header>
+        <ol>
+          <li>Batman: Arkham Asylum 🏆</li>
+          <li>Skate 3 🥈</li>
+          <li>Ultimate Spider-Man 🥉</li>
+          <li>Uncharted 2</li>
+          <li>Sekiro: Shadow's Die Twice</li>
+        </ol>
+      </section>
+
+      <hr class="main__separator main__separator--lightTheme"></hr>
+
+      <section id="activities">
+        <h2>Moje ulubione zajęcia</h2>
+        <p>Co lubię robić najbardziej?</p>
+        <p>
+          Oprócz wyżej wymienionych gier i filmów uwielbiam jeździć na rowerze
+          czy grać w piłkę z kumplami. Gdy nadaży się okazja lubię też odwiedzać
+          parki trampolinowe oraz baseny
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      © Copyright 2023 by Marcel Urbańczyk - Wszystkie prawa zastrzeżone
+    </footer>
+  </body>
+</html>
