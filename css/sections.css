@@ -1,0 +1,22 @@
+
+.main__separator--lightTheme {
+    background: black;
+  }
+  
+  .main__separator--darkTheme {
+    background: white;
+  }
+  
+  .main__separator {
+    border-radius: 50%;
+    height: 3px;
+  }
+
+  .sectionMovies__a {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .sectionMovies__a:link,
+  .sectionMovies__a:visited {
+    color: #094663;
+  }  
