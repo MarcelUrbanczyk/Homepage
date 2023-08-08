@@ -1,5 +1,5 @@
 
-.main__separator {
+.main__separator--lightTheme {
     background: black;
   }
   
@@ -15,14 +15,8 @@
   .sectionMovies__a {
     font-family: Helvetica, sans-serif;
   }
-
+  
   .sectionMovies__a:link,
   .sectionMovies__a:visited {
     color: #094663;
-  }
-
-
-  .sectionMovies__a--darkTheme:link,
-  .sectionMovies__a--darkTheme:visited {
-    color: white
-  }
+  }  

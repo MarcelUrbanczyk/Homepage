@@ -11,17 +11,11 @@
     color: white;
     cursor: pointer;
     display: inline-block;
-    font-weight: 700;
     list-style: none;
     margin: 15px;
   }
-
-  .nav__a:hover {
-    color: white;
-  }
   
   .nav__a {
-    color: #a7a3a3;
-    transition: color 0.3s;
+    color: white;
     text-decoration: none;
   }
