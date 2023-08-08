@@ -1,25 +1,27 @@
 .header {
-    background: #272020;
-    border: 2px solid white;
-    border-radius: 8px;
-    color: white;
-    margin: 15px 0px;
-    padding: 10px;
-    text-align: left;
+  background: #272020;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  display: grid;
+  margin: 15px 0px;
+  padding: 10px;
+  text-align: left;
+  grid-template-columns: auto 1fr auto;
+}
 
-  }
-  
-  .header__title {
-    display: inline-block;
-    margin: 20px;
-  }
-  
-  .header__button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    margin-left: 40px;
-    margin: 0;
-    padding: 0;
-  }
+.header__title {
+  display: inline-block;
+  margin: 20px;
+}
+
+.header__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 40px;
+  margin: 0;
+  padding: 0;
+  grid-column: 3;
+}
